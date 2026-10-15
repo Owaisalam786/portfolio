@@ -1,43 +1,42 @@
 # Owais Alam — Personal Portfolio
 
-A clean, responsive personal portfolio website focused on Python, data analytics, practical projects, and beginner-friendly learning resources.
+A compact, responsive personal portfolio for Python development, data analytics learning, projects, learning resources, and certificates.
 
 ## Run locally
 
-No build step or package installation is required.
+No build step, package installation, or framework is required.
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Owaisalam786/portfolio.git
    ```
 2. Open the folder in VS Code.
-3. Open `index.html` in a browser, or run it with VS Code Live Server.
+3. Open `index.html` in a browser, or use the VS Code Live Server extension.
 
 ## Publish with GitHub Pages
 
 1. Open [Repository Pages settings](https://github.com/Owaisalam786/portfolio/settings/pages).
-2. Under **Build and deployment**, choose **Deploy from a branch**.
+2. Under **Build and deployment**, select **Deploy from a branch**.
 3. Select branch `main` and folder `/(root)`, then click **Save**.
-4. Wait for GitHub Pages to finish. Copy the exact live URL shown on the Pages settings screen.
+4. Wait for the deployment to complete and use the live URL shown in Pages settings.
 
-## Before sharing with recruiters
+## What's included
 
-- Replace project ideas with completed projects and links to their real repositories.
-- Keep skill tags aligned with tools you can confidently discuss.
-- Add a professional email and LinkedIn link when you are ready.
-- Only add real certificates, qualifications, or a résumé.
+- Compact hero and sticky navigation
+- Responsive About, Skills, Projects, Learning Resources, Certificates, Contact, and Footer sections
+- Working dark/light theme toggle (saved locally when browser storage is available)
+- Mobile navigation and accessible focus states
+- Reduced-motion support
+- Search/social-sharing metadata
+- Lightweight HTML, CSS, and vanilla JavaScript; no build dependencies
 
-## Features
+## Keep the portfolio authentic
 
-- Responsive layout for mobile, tablet, and desktop
-- Dark/light theme toggle
-- Minimal design and subtle animations
-- Accessible navigation and reduced-motion support
-- SVG data illustration clearly labeled as illustrative
-- Links to useful Python, Pandas, SQL, GitHub, visualization, and dataset resources
-- SEO and social-sharing metadata
-- No framework or build dependencies
+- Project ideas are labeled as ideas, not completed work. Update cards only when you have real repositories, demos, and verified details.
+- Skills are framed as learning areas; adjust them as your practical experience grows.
+- The Certificates section links to [Owaisalam786/certificates](https://github.com/Owaisalam786/certificates). Confirm the repository is public and contains the files you want visitors to see.
+- Add a LinkedIn link or professional email only when you have the correct public URL/address.
 
-## Tech stack
+## Main file
 
-HTML, CSS, vanilla JavaScript, inline SVG, and Google Fonts.
+The site is intentionally maintained in `index.html` so it can be edited and deployed easily without a framework.
