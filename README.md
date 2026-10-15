@@ -1,10 +1,10 @@
-# Owais Alam — Personal Portfolio
+# Owais Alam — Cinematic Developer Portfolio
 
-A compact, responsive personal portfolio for Python development, data analytics learning, projects, learning resources, and certificates.
+A responsive, dark-first personal portfolio for Python development, data analytics, projects, learning resources, and certificates. The hero includes a lazily loaded Three.js sculpture with a CSS fallback; the rest of the site uses lightweight HTML, CSS, and vanilla JavaScript.
 
 ## Run locally
 
-No build step, package installation, or framework is required.
+No package installation or build step is required.
 
 1. Clone the repository:
    ```bash
@@ -13,6 +13,8 @@ No build step, package installation, or framework is required.
 2. Open the folder in VS Code.
 3. Open `index.html` in a browser, or use the VS Code Live Server extension.
 
+The 3D hero imports Three.js from jsDelivr when it approaches the viewport, so the 3D effect needs an internet connection. If WebGL or the CDN is unavailable, the CSS orb remains as a fallback.
+
 ## Publish with GitHub Pages
 
 1. Open [Repository Pages settings](https://github.com/Owaisalam786/portfolio/settings/pages).
@@ -20,23 +22,25 @@ No build step, package installation, or framework is required.
 3. Select branch `main` and folder `/(root)`, then click **Save**.
 4. Wait for the deployment to complete and use the live URL shown in Pages settings.
 
-## What's included
+## Features
 
-- Compact hero and sticky navigation
+- Cinematic dark interface with blue, violet, and cyan accents
+- Interactive Three.js hero sculpture, loaded lazily with a CSS fallback
 - Responsive About, Skills, Projects, Learning Resources, Certificates, Contact, and Footer sections
-- Working dark/light theme toggle (saved locally when browser storage is available)
-- Mobile navigation and accessible focus states
-- Reduced-motion support
-- Search/social-sharing metadata
-- Lightweight HTML, CSS, and vanilla JavaScript; no build dependencies
+- Dark/light theme toggle and responsive mobile navigation
+- Active section navigation and scroll progress indicator
+- Subtle pointer-driven project card tilt
+- Keyboard focus states and `prefers-reduced-motion` support
+- Metadata for search and social sharing
+- No framework or build step required
 
-## Keep the portfolio authentic
+## Keep portfolio details authentic
 
-- Project ideas are labeled as ideas, not completed work. Update cards only when you have real repositories, demos, and verified details.
-- Skills are framed as learning areas; adjust them as your practical experience grows.
-- The Certificates section links to [Owaisalam786/certificates](https://github.com/Owaisalam786/certificates). Confirm the repository is public and contains the files you want visitors to see.
-- Add a LinkedIn link or professional email only when you have the correct public URL/address.
+- Project ideas are labeled as ideas, not completed work. Replace them only with real repositories, demos, and verified details.
+- Skills are presented as learning areas; update them as practical experience grows.
+- The Certificates section links to [Owaisalam786/certificates](https://github.com/Owaisalam786/certificates). Ensure that repository is public and contains the intended certificate files.
+- Add LinkedIn and email links only after confirming the correct public profile/address.
 
 ## Main file
 
-The site is intentionally maintained in `index.html` so it can be edited and deployed easily without a framework.
+The portfolio is intentionally maintained in `index.html` for straightforward editing and GitHub Pages deployment.
