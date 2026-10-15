@@ -31,6 +31,13 @@
     @media(max-width:620px){.wrap{width:calc(100% - 30px)}.nav{height:60px}.menu-btn{display:grid}.navlinks{display:none;position:absolute;top:59px;left:0;right:0;padding:15px;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:15px}.navlinks.open{display:flex}.hero{padding:45px 0 38px}.hero-grid{grid-template-columns:1fr;gap:26px}h1{font-size:clamp(2.6rem,12vw,3.8rem)}.hero-copy{font-size:.9rem}.code-card{padding:15px}.facts{gap:10px 18px}section.content-section{padding:48px 0}.about-grid,.project-grid,.resource-grid{grid-template-columns:1fr}.principles{gap:8px}.principle{padding:13px}.skills-grid{gap:8px}.skill-group{padding:13px}.certificate-row{align-items:flex-start;flex-direction:column}.certificate-row .btn{width:100%}.contact-actions{flex-direction:column;width:100%}.contact-actions .btn{width:100%}.footer-inner{align-items:flex-start;flex-direction:column}.section-head h2{font-size:1.9rem}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
   
+
+    .hero-greeting{font-size:clamp(.95rem,1.45vw,1.18rem);letter-spacing:.14em;font-weight:700;color:var(--text);margin-bottom:10px}
+    .hero-name{font-size:clamp(3.4rem,7.2vw,6rem);font-weight:800;line-height:.98;letter-spacing:-.085em;margin:0 0 23px;color:var(--text);text-wrap:balance}
+    .hero-name span{color:var(--cyan)}
+    @media(max-width:820px){.hero-name{font-size:clamp(3.25rem,7.4vw,5rem)}}
+    @media(max-width:620px){.hero-greeting{font-size:.92rem}.hero-name{font-size:clamp(3.35rem,12.5vw,5rem);margin-bottom:20px}}
+
     /* Cinematic design layer */
     :root{--bg:#070912;--surface:#0d1120;--surface2:#121a2d;--text:#f4f6ff;--muted:#a2abc4;--line:rgba(157,174,226,.16);--accent:#8b9dff;--accent-ink:#090d20;--max:1120px;--radius:18px;--cyan:#6cecff;--violet:#b69bff}
     [data-theme="light"]{--bg:#f6f7fc;--surface:#fff;--surface2:#edf0fa;--text:#171a2b;--muted:#5c637c;--line:rgba(40,51,98,.16);--accent:#514be7;--accent-ink:#fff;--cyan:#087e9a;--violet:#7554d9}
@@ -64,7 +71,7 @@
     <section class="hero" id="home"><div class="wrap hero-grid">
       <div class="reveal">
         <div class="status"><span class="dot"></span> OPEN TO LEARNING & COLLABORATION</div>
-        <p class="eyebrow">HELLO, I'M OWAIS ALAM</p>
+        <p class="eyebrow hero-greeting">HELLO, I'M</p><div class="hero-name">Owais Alam<span>.</span></div>
         <h1>Python Developer <span>& Aspiring Data Analyst</span></h1>
         <p class="hero-copy">I build practical Python projects, explore data, and turn information into meaningful insights. Curious about the patterns behind the numbers — and the code that brings them to life.</p>
         <div class="actions"><a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a><a class="btn btn-quiet" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
